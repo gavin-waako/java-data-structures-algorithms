@@ -5,6 +5,8 @@ public class TheArrays {
 
         // Create String array of colors
         String[] colors = new String[5];
+
+        // Assign values to each index of the colors array
         colors[0] = "purple";
         colors[1] = "blue";
         colors[2] = "green";
@@ -65,6 +67,8 @@ public class TheArrays {
         // Looping using Streams
         System.out.println();
         System.out.println("Looping through Colors using Streams:");
+
+        // Convert array to stream and loop through it using forEach method
         Arrays.stream(colors).forEach(System.out::println);
         System.out.println();
         System.out.println("Looping through Numbers using Streams:");

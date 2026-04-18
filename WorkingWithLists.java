@@ -6,6 +6,8 @@ public class WorkingWithLists {
         
         // Create a list of strings using the List interface and ArrayList class
         List<String> colors = new ArrayList<>();
+
+        // Add colors to the list
         colors.add("red");
         colors.add("blue");
         colors.add("green");
